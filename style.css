@@ -3,13 +3,12 @@
 
 @font-face {
   font-family: 'Gosha';
-  src: url('_fonts/Gosha\ Regular.otf') format('opentype'), url('_fonts/SpaceGrotesk-VariableFont_wght.ttf') format('ttf') ;
-  font-weight: normal;
-  font-style: normal;
+  src: url('fonts/Gosha Regular.otf') format('opentype'), url('fonts/Gosha Bold.otf') format('otf') ;
 }
+
 @font-face {
   font-family: 'Space Gro';
-  src: url('_fonts/SpaceGrotesk-VariableFont_wght.ttf') format('ttf') ;
+  src: url('fonts/SpaceGrotesk-VariableFont_wght.ttf') format('ttf') ;
   font-weight: normal;
   font-style: normal;
 }
@@ -135,7 +134,7 @@ p {
 }
 
 #sec1 {
-    background-image: url(_images/vgv-logo-cor_1.svg) no-repeat;
+    background-image: url(images/vgv-logo-cor_1.svg) no-repeat;
     align-content: baseline center;
     background-size: contain;
     background-color: var(--main-color1);
@@ -598,13 +597,8 @@ p {
       -ms-flex-direction: column;
       flex-direction: column;
       -webkit-box-pack: center;
-      -webkit-justify-content: center;
       -ms-flex-pack: center;
-      /* justify-content:center; */
-      /* -webkit-box-align:center; */
-      -webkit-align-items: center;
       -ms-flex-align: center;
-      /* align-items:center; */
       background-color: var(--main-color3);
   }
   
@@ -629,10 +623,6 @@ p {
   .highlight-text-features {
       background-color: #daf0e8
   }
-
-
-
-
 
 
 
