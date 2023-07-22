@@ -7,9 +7,6 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <title>Título do Site</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-
-    </style>
   </head>
   <body>
     <header>
@@ -23,31 +20,60 @@
       </nav>
     </header>
     <main>
-      <section id="sec1">
-      <div class="sec1">
+      <section id="sec1"> <!--headline-->
+      <div class="sec1-element">
         <h1 class="headline">Controle suas vendas<br>em um só lugar!</h1>
-        <h2 class="headline2">Perfeito para equipes internas e corretores</h2>
+        <h4 class="headline2">Perfeito para equipes internas e corretores</h4>
       </div>
-
-      <section id="sec3">
+      <section class="sec32"> <!--tab videos-->
+       <div class="section-32"> 
         <div class="steps-hd">
           <div>
             <h1>Como<br><span class="segcolor">Funciona</span></h1>
             <p>Siga os passos<p>
           </div>
+        </div> 
+        <div class="wrapper"> <!--tab videos-->
+          <div class="tabs">
+            <div class="tab">
+                <input type="radio" name="css-tabs" id="tab-1" checked class="tab-switch">
+                <label for="tab-1" class="tab-label">Como cadastrar um produto</label>
+                <div class="tab-content">
+                  <iframe width="460" height="315" src="https://www.youtube.com/embed/yLhG7JNXJ0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">  
+                  </iframe>
+                </div>
+            </div>
+            <div class="tab">
+              <input type="radio" name="css-tabs" id="tab-2" class="tab-switch">
+              <label for="tab-2" class="tab-label">Como aprovar uma proposta</label>
+                <div class="tab-content"> 
+                  <iframe width="460" height="315" src="https://www.youtube.com/embed/yLhG7JNXJ0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+                  </iframe>
+                </div>
+            </div>
+            <div class="tab">
+              <input type="radio" name="css-tabs" id="tab-3" class="tab-switch">
+                <label for="tab-3" class="tab-label">Como criar relatorios de vendas
+                </label>
+                <div class="tab-content">
+                  <iframe width="460" height="315" src="https://www.youtube.com/embed/yLhG7JNXJ0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+                  </iframe>
+                </div>
+            </div>
+            <div class="tab">
+              <input type="radio" name="css-tabs" id="tab-4" class="tab-switch">
+                <label for="tab-4" class="tab-label">Como configurar as propostass</label>
+                <div class="tab-content">
+                  <iframe width="460" height="315" src="https://www.youtube.com/embed/yLhG7JNXJ0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">    
+                  </iframe>
+                </div>
+            </div>
+          </div>
         </div>
-        <div class="steps-element">
-          <h4 class="steps1-element">Como cadastrar um produto</h4>
-          <h4 class= "steps2-element">Como aprovar uma proposta</h4>
-          <h4 class="steps3-element">como criar relatorios de vendas</h4>
-          <h4 class="steps4-element">Como configurar as propostas<h4>    
-            <div class="video">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/yLhG7JNXJ0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>  
-        </div>
+      </div>  
       </section>
-      <section id="sec-clientes">
-        <div class="sec2">
+      <section id="sec2"> <!--slider empresas-->
+        <div class="sec-clientes">
           <h2>Nossos <span class="segcolor">Clientes</span></h1>
           <h3>Empresas que já utilizam o sistema da VGV</h3>
         </div>
@@ -83,7 +109,7 @@
         </div>
       </section>
 
-      <section id="sec5">
+      <section id="sec5"> <!--vantagens-->
           <div class="why-element">
               <h1> Por que Contratar?</h1>
                 <h4 class="why1-element">Facilidade no acesso a informação</h4>
@@ -97,7 +123,7 @@
             <img src="images/hand-business.png" alt="por que contratar?">
           </picture>       
       </section>
-      <section id="sec6">
+      <section id="sec6"> <!--planos-->
         <div>
           <h1>Planos VGV</h1>
           <p>Experimente por 7 dias grátis</p>
@@ -113,7 +139,7 @@
                 <div class="price-wrapper">
                   <div class="group-price">
                     <div class="rs">R$</div>
-                    <div class="price-big">59</div>
+                    <div class="price-big">399</div>
                     <div class="rs">,90</div>
                   </div>
                 </div>
@@ -129,7 +155,7 @@
             <div class="price-wrapper">
               <div class="group-price">
                 <div class="rs">R$</div>
-                  <div class="price-big">39</div>
+                  <div class="price-big">599</div>
                     <div class="rs">,90</div>
                   </div>
                     <div class="small">Em até 12x sem juros</div>
@@ -139,8 +165,8 @@
                 </div>
               </div>
         </div>
-      </section>
-      <section id="sec7">
+      </section> 
+      <section id="sec7"> <!--cards-->
         <div>
           <img src="" alt="">
           <h1>Proposta online com cadastro e documentação completa.</h1>
@@ -183,10 +209,9 @@
         </div>
      </section>
 
-
-    </main>
     <footer>
       <p>&copy; 2023 Nome do Site. Todos os direitos reservados.</p>
     </footer>
+    </main>
   </body>
 </html>
